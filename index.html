@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Assets/css/style.css">
+    <title>Challenge Quiz</title>
+</head>
+<body>
+    <div class="hscore"><a href="highscores.html">View Highscores</a></div>
+    <div class="countdown">Time Left:<span id="counter">0</span></div>
+    <div class="surround">
+        <div id="beginning-screen" class="begin">
+            <h1>Challenge Quiz</h1>
+            <p>Answer as many questions as you can in the time frame!</p>
+            <button id="begin">Begin Challenge Quiz</button>
+        </div>
+        <div id="question" class="hidden">
+            <h2 id="quizquestions"></h2>
+            <div id="selection" class="selection"></div>
+        </div>
+        <div id="finished" class="hidden">
+            <h3>Good Job!</h3>
+            <p>Here is your score <span id="score"></span></p>
+        </div>
+    </div>
+    <script src="/Assets/js/questions.js"></script>
+    <script src="/Assets/js/logic.js"></script>
+</body>
+</html>

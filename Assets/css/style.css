@@ -1,0 +1,34 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+}
+
+a {
+    color: #47006b;
+    text-decoration: none;
+}
+
+button {
+    display: inline-block;
+    font-size: 100%;
+    background-color: #5e9584;
+    color: white;
+    border: 10px;
+    border-radius: 10%;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: #47006b;
+}
+
+.question button {
+    display: inline-block;
+}
+input[type="text"] {
+    font-size: large;
+}
+
+.hidden {
+    display: none;
+}
